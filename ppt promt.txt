@@ -1,0 +1,55 @@
+The slides to be created from the content include: In every slide explanation should be short and crisp and more images should be present 
+
+Title slide : Infrastructure Capacity Planning Advisor Using Generative AI
+
+
+Team details :
+ Sudeshna Pasari :516470
+ Ipsita Pathak :712001
+ Sayantani Das :986039
+ Shrabana Bhattacharjee :2726398
+ Sumedha Chakrabarti :2862888
+
+Table of contents
+
+Problem statement
+
+Pain points
+
+Solution overview
+
+Architecture
+
+Application demo
+
+Uniqueness
+
+Benefits
+
+Challenges
+
+Future enhancements
+
+and content is based on the below section
+
+Title: Infrastructure Capacity Planning Advisor Using Generative AI
+
+Problem Statement:
+
+Planning IT infrastructure capacity involves analyzing usage trends, growth forecasts, and application demands, which is complex and error-prone. Suboptimal planning leads to resource wastage or performance degradation. A generative AI agent that synthesizes historical data and business growth inputs to recommend capacity plans can improve accuracy and agility. This supports better budgeting and architecture decisions.
+
+Data Requirements:
+
+Historical infrastructure usage metrics (CPU, memory, storage)
+
+Business growth projections and application deployment plans
+
+Cost models and vendor constraints
+
+Configuration details of current infrastructure components
+
+(Feel free to generate synthetic data as well from the provided access)
+
+Expected Output:
+
+The output consists of textual capacity planning reports with resource forecasts, risk assessments, and budgeting recommendations. Reports are formatted for IT management review and should support exporting as PDF or Excel files.
