@@ -1,0 +1,100 @@
+Hey, You are an expert AI-powered solution developer using Python backend, Streamlit UI, and Azure OpenAI LLM models.
+
+Now I am giving you a solution description that you have to develop.
+
+Title: Infrastructure Capacity Planning Advisor Using Generative AI
+
+Problem Statement:
+
+Planning IT infrastructure capacity involves analyzing usage trends, growth forecasts, and application demands, which is complex and error-prone. Suboptimal planning leads to resource wastage or performance degradation. A generative AI agent that synthesizes historical data and business growth inputs to recommend capacity plans can improve accuracy and agility. This supports better budgeting and architecture decisions.
+
+Data Requirements:
+
+Historical infrastructure usage metrics (CPU, memory, storage)
+
+Business growth projections and application deployment plans
+
+Cost models and vendor constraints
+
+Configuration details of current infrastructure components
+
+(Feel free to generate synthetic data as well from the provided access)
+
+Expected Output:
+
+The output consists of textual capacity planning reports with resource forecasts, risk assessments, and budgeting recommendations. Reports are formatted for IT management review and should support exporting as PDF or Excel files.
+
+Please make the solution very simple and run the solution.
+
+The Streamlit UI should be split into different pages, such as:
+
+We need a login page with authentication also with logout feature in every page top right corner.without authenication we can not loging in each page and error message should be shown.
+
+Page 1 – Dashboard- It will show all the previously created graph id, title, status and if any other attribute in a table format . 
+
+Page 2 – Data Upload & Vectorization - Users can upload JSON, TXT, PDF, or DOCX files file and  then input data can vectorize through amother button named vectorized and user can see vectorized record in a table (Use Azure OpenAI embedding models.Store vectors in Chroma vector database.) Use chunks uploaded documents (for this in Ui there should a chunk and overlap section where user can set this)
+
+Page 3 – analyze and output (create a proper name for this)
+Analyze infrastructure usage trends, Generate infrastructure forecasts with charts(chart should be in smaller size there should not be any scrollbar) and chart report should be saved in a folder so that user can show all the previous report in the Dashboard, Use Azure OpenAI LLM deployed model to generate AI-driven capacity planning reports
+
+Page 4 – Settings
+Allow configuration for:
+Azure OpenAI API Key
+Azure Endpoint 
+API Version
+Model Deployment Name
+
+Use Chroma Vector Database for vector storage and retrieval and Azure OpenAI models for embeddings and text generation.
+
+Finally, create a ready-to-run solution and provide it as a ZIP file containing:
+
+requirements.txt
+
+.env configuration
+
+Proper README file with setup instructions
+
+The Streamlit UI should look professional, include colorful emojis.
+Don't use app.py name . This file name should be the title name of the solution in short 
+ 
+ 
+--------------------------------
+
+
+This is for Synthetic Data Generator promt:
+
+
+Now I am giving you a solution description that you have to develop.
+
+Title: Infrastructure Capacity Planning Advisor Using Generative AI
+
+Problem Statement:
+
+Planning IT infrastructure capacity involves analyzing usage trends, growth forecasts, and application demands, which is complex and error-prone. Suboptimal planning leads to resource wastage or performance degradation. A generative AI agent that synthesizes historical data and business growth inputs to recommend capacity plans can improve accuracy and agility. This supports better budgeting and architecture decisions.
+
+Data Requirements:
+
+Historical infrastructure usage metrics (CPU, memory, storage)
+
+Business growth projections and application deployment plans
+
+Cost models and vendor constraints
+
+Configuration details of current infrastructure components
+
+(Feel free to generate synthetic data as well from the provided access)
+
+Expected Output:
+
+The output consists of textual capacity planning reports with resource forecasts, risk assessments, and budgeting recommendations. Reports are formatted for IT management review and should support exporting as PDF or Excel files.
+
+Create a  solution for Synthetic Data Generator  and provide it as a ZIP file containing:
+ 
+Synthetic Data Generator
+
+Users can generate automatic synthetic infrastructure data Support file formats: JSON, TXT, PDF, DOCX
+
+Users can download generated datasets in JSON, TXT, PDF, DOCX format and all buttons should be horizontal with attaractive UI.
+
+
+ 
